@@ -15,7 +15,7 @@ function initKeys(){
 }
 
 const submitPressed = e => {
-    url = window.location.href.replace("index.html","") + 'wordlyGame.html?file=words"+letterChooser+wordsChooser+'&letterCnt='+letterChooser;
+    url = window.location.href.replace("index.html","") + "wordlyGame.html?file=words"+letterChooser+wordsChooser+'&letterCnt='+letterChooser;
     window.open(url,"_self");
 }
 
