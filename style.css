@@ -1,0 +1,91 @@
+body{
+    background-color:sandybrown;
+}
+
+.myclass{
+    border: 1px solid black;
+}
+
+.separator{
+    padding: 10px;
+    flex-basis: 100%;
+    height: 0;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.button{
+    padding: 15px;
+    border: 1px solid black;
+}
+
+.submit{
+    background-color: blueviolet;
+    padding: 15px;
+    border: 1px solid black;
+}
+.submit:hover{
+    background-color: brown;
+}
+
+.button:hover{
+    background-color: brown;
+}
+
+.keys{
+    padding: 15px;
+    border: 1px solid black;
+}
+
+.keys:hover{
+    background-color: brown;
+}
+
+.alfabet{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.alfabet .keys{
+    cursor: pointer;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+#lettersIn_main{
+    display: flex;
+}
+
+#lettersOut_main{
+    display: flex;
+}
+
+.wyraz{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.wyraz .keys{
+    cursor: pointer;
+}
+
+.letters {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-color: wheat;
+}
+
+.letters:focus {
+    background-color: chocolate;
+}
