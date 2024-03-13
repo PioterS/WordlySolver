@@ -2,6 +2,7 @@ const MIN_LETTER = 5;
 const MAX_LETTER = 7;
 var letterChooser = 5;
 var wordsChooser = "common";
+wordsChooser.re
 
 function initKeys(){
     for(let i=MIN_LETTER;i<=MAX_LETTER;i++){
@@ -14,7 +15,7 @@ function initKeys(){
 }
 
 const submitPressed = e => {
-    url = "wordlyGame.html?file=words"+letterChooser+wordsChooser+'&letterCnt='+letterChooser;
+    url = window.location.href.replace("index.html","") + 'wordlyGame.html?file=words"+letterChooser+wordsChooser+'&letterCnt='+letterChooser;
     window.open(url,"_self");
 }
 
