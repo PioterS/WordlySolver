@@ -1,0 +1,5 @@
+Change name of the buttons to refresh results.
+Add buttons to start searching from begin.
+Change to english.
+
+Add style to get more futuristic view.
