@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+
+    <script src='buttonsGame.js'></script>
+    <script src='scriptGame.js'></script>
+</head>
+<body onload="insertKeys();initData();">
+    <div class="alphabet" id="alphabet">
+        <!-- javascript inserts all english letters with keyboard layout -->
+    </div>
+    
+    <div class="lettersInWord" id="lettersInWord">
+        <!-- javascript inserts letters in word positions -->
+    </div>
+    
+    <div class="buttonSeparator"></div>
+    <div class="LettersOfWord" id="lettersIn_main">
+        <div id="lettersIn_txt">
+            Letters in the word: 
+        </div>
+        <div id="lettersIn">
+        </div> 
+    </div>
+    <div class="LettersOfWord" id="lettersOut_main">
+        <div id="lettersOut_txt">
+            Letters excluded from the word: 
+        </div>
+        <div id="lettersOut">
+        </div> 
+    </div>
+    <div class="buttonSeparator"></div>
+
+    <div class="SelectedWords">
+        <div class="selectedWord_txt">
+            First word choose type 1:
+        </div>
+        <div class="font-effect-fire" id="SelectedWord1">
+            
+        </div>
+        <div class="selectedWord_txt" id="SelectedWord1_txt">
+            
+        </div>
+    </div>
+    <div class="SelectedWords">
+        <div class="selectedWord_txt">
+            First word choose type 2:
+        </div>
+        <div class="font-effect-fire" id="SelectedWord2">
+            
+        </div>
+        <div class="selectedWord_txt" id="SelectedWord2_txt">
+            
+        </div>
+    </div>
+    
+    
+    <div class="buttonSeparator"></div>
+    <div class="buttons">
+        <div class="buttonGame" onclick="update()">Update List</div> 
+        <!-- <div class="buttonGame" onclick="fillTable()">Update</div>  -->
+    </div>
+    <div class="buttonSeparator"></div>
+    <div id="letterPercentageTable">
+        <!-- Percentage Table -->
+    </div>
+    <div id="wordTable">
+        <!-- Words Table -->
+    </div>
+</body>
+</html>
